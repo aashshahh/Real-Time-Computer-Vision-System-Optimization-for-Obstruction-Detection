@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Environments
+env/
+venv/
+.conda/
+
+# Data
+data/*
+!data/README.md
+
+# Models / weights
+models/
+*.pt
+*.pth
+*.ckpt
+git remote add origin
+# Logs
+logs/
+
+# Safety: ignore any accidental large generated folders
+processed_csvs/
+box_layouts/
+*.layout.json
