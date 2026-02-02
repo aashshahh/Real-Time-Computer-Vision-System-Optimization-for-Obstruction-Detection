@@ -13,20 +13,18 @@ env/
 venv/
 .conda/
 
-# Data
+# Data (keep only README)
 data/*
 !data/README.md
 
-# Models / weights
+# Model checkpoints / weights
 models/
 *.pt
 *.pth
 *.ckpt
-git remote add origin
+
+# Videos (optional) - keep if your mp4 are small; otherwise ignore videos folder
+# results/videos/
+
 # Logs
 logs/
-
-# Safety: ignore any accidental large generated folders
-processed_csvs/
-box_layouts/
-*.layout.json
